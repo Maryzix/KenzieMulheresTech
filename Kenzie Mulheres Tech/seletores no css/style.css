@@ -1,0 +1,38 @@
+
+/*flex deixa um do lado do outro as caixas, alinhas os itens de acordo com a direção so funciona se os elemnetos filhos nao ocuparem todo o espaço*/
+
+
+.box {
+    height: 150px;
+    width: 150px;
+    margin: 15px ;
+  
+}
+
+.red {
+    background-color: red;
+}
+
+.blue {
+    background-color: blue;
+}
+
+.yellow {
+    background-color: yellow;
+}
+
+@media screen and (max-width:1028px) {
+    .box{
+        background-color: blue;
+    }
+}
+
+
+@media screen and (max-width:520px){
+    .box { 
+        background-color: green;
+        height: 50px;
+        width: 50px;
+        margin: 10px;
+    }
+}
